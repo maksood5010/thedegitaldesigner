@@ -871,19 +871,6 @@ Navbar Area Css
   top: 3px;
   width: 191px;
 }
-.wrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
-  height: 0;
-}
-.wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 .navbar-area .nav-right {
   display: none;
   width: 100%;
@@ -1026,14 +1013,6 @@ Banner Area Css
   z-index: -1;
 }
 .banner-area .home-shape .shape6 {
-  position: absolute;
-  bottom: 30%;
-  right: 4%;
-  -webkit-animation: animationFramesOne 15s linear infinite;
-          animation: animationFramesOne 15s linear infinite;
-  z-index: -1;
-}
-.banner-area .home-shape .shape7 {
   position: absolute;
   bottom: 30%;
   right: 4%;
@@ -1524,6 +1503,21 @@ Choose Area 2 Css
 /*
 Process Area Css
 ======================================================*/
+.wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .home-process-area {
   background-color: #051242;
 }
@@ -2943,6 +2937,7 @@ Blog Details Area Style
   ================================*/
 }
 .blog-details-area .blog-details-desc .article-image {
+  color: #000;
   position: relative;
   background-color: #293a5c;
 }

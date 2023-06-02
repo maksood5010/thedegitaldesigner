@@ -556,7 +556,7 @@ Header Area Css
 header-2 Area Css
 ======================================================*/
 .header-2 {
-    background: $blue-color;
+    background: #0b29ff;
     &.three {
         background: #000b2f;
     }
@@ -863,7 +863,7 @@ Navbar Area Css
         width: 191px;
     }
     .nav-right {
-        display: inline-flex;
+        display: none;
         width: 100%;
         position: relative;
         top: -3px;
@@ -1517,6 +1517,19 @@ Choose Area 2 Css
 /*
 Process Area Css
 ======================================================*/
+.wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 .home-process-area {
     background-color: $dark-blue-color;
     .section-title {
@@ -2925,6 +2938,7 @@ Blog Details Area Style
 .blog-details-area {
 	.blog-details-desc {
 		.article-image {
+            color: #000;
 			position: relative;
 			background-color: $heading-color;
 		}
